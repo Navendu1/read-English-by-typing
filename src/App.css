@@ -819,6 +819,100 @@ body {
   color: var(--text-primary);
 }
 
+/* Typing Lesson Styles */
+.typing-lesson {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  transition: all 0.3s ease;
+}
+
+.typing-lesson h2 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.typing-lesson .rule {
+  background-color: #eaf2f8;
+  color: #3498db;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+  border-left: 5px solid #3498db;
+}
+
+.typing-lesson .word-to-type {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.typing-lesson .word-to-type:hover {
+  color: #3498db;
+}
+
+.typing-lesson .sentence-to-type {
+  background-color: #f8f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center;
+  min-height: 50px;
+}
+
+.typing-lesson .sentence-to-type p span {
+  transition: color 0.2s ease;
+}
+
+.typing-lesson input[type="text"] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  border: 2px solid #bdc3c7;
+  border-radius: 8px;
+  text-align: center;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.typing-lesson input[type="text"]:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.2);
+}
+
+.typing-lesson input[type="text"]:disabled {
+  background-color: #ecf0f1;
+  cursor: not-allowed;
+}
+
+.completion-message {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2ecc71;
+  margin-top: 1.5rem;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .app {
