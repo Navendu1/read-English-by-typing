@@ -52,4 +52,58 @@ export const lessons: Lesson[] = [
   { rule: "Digraph 'sh' (as in ship)", word: "ship", sentence: "The ship sailed on the sea." },
   { rule: "Digraph 'th' (as in think)", word: "think", sentence: "I think, therefore I am." },
   { rule: "Digraph 'wh' (as in what)", word: "what", sentence: "What is your name?" },
+
+  // R-Controlled Vowels
+  { rule: "R-Controlled 'ar' (as in car)", word: "car", sentence: "The car is fast." },
+  { rule: "R-Controlled 'er' (as in her)", word: "her", sentence: "This is her book." },
+  { rule: "R-Controlled 'ir' (as in bird)", word: "bird", sentence: "The bird can fly high." },
+  { rule: "R-Controlled 'or' (as in fork)", word: "fork", sentence: "Use a fork to eat." },
+  { rule: "R-Controlled 'ur' (as in fur)", word: "fur", sentence: "The cat has soft fur." },
+
+  // Diphthongs
+  { rule: "Diphthong 'oi' (as in coin)", word: "coin", sentence: "He found a shiny coin." },
+  { rule: "Diphthong 'oy' (as in toy)", word: "toy", sentence: "The boy has a new toy." },
+  { rule: "Diphthong 'ou' (as in house)", word: "house", sentence: "They live in a big house." },
+  { rule: "Diphthong 'ow' (as in cow)", word: "cow", sentence: "The brown cow eats grass." },
+
+  // Silent Letters
+  { rule: "Silent 'k' (as in know)", word: "know", sentence: "I know the answer." },
+  { rule: "Silent 'w' (as in write)", word: "write", sentence: "Please write your name." },
+  { rule: "Silent 'b' (as in lamb)", word: "lamb", sentence: "The little lamb is white." },
+  { rule: "Silent 'h' (as in hour)", word: "hour", sentence: "We have one hour left." },
+
+  // More Vowel Teams
+  { rule: "Vowel Team 'au' (as in sauce)", word: "sauce", sentence: "The sauce is hot." },
+  { rule: "Vowel Team 'aw' (as in paw)", word: "paw", sentence: "The dog hurt its paw." },
+  { rule: "Vowel Team 'ew' (as in new)", word: "new", sentence: "I have a new book." },
+  { rule: "Vowel Team 'igh' (as in high)", word: "high", sentence: "The bird flies high." },
+  { rule: "Vowel Team 'oo' (as in book)", word: "book", sentence: "She read a good book." },
+  { rule: "Vowel Team 'oo' (as in moon)", word: "moon", sentence: "The moon is bright tonight." },
+
+  // Soft and Hard 'c' and 'g'
+  { rule: "Hard 'c' (as in cat)", word: "cat", sentence: "The cat is sleeping." },
+  { rule: "Soft 'c' (as in city)", word: "city", sentence: "New York is a big city." },
+  { rule: "Hard 'g' (as in game)", word: "game", sentence: "Let's play a game." },
+  { rule: "Soft 'g' (as in gym)", word: "gym", sentence: "He goes to the gym." },
+
+  // Common Sight Words
+  { rule: "Sight Word 'the'", word: "the", sentence: "The dog is brown." },
+  { rule: "Sight Word 'is'", word: "is", sentence: "The sky is blue." },
+  { rule: "Sight Word 'are'", word: "are", sentence: "We are friends." },
+  { rule: "Sight Word 'was'", word: "was", sentence: "It was a sunny day." },
+  { rule: "Sight Word 'said'", word: "said", sentence: "She said hello." },
+
+  // Compound Words
+  { rule: "Compound Word 'cupcake'", word: "cupcake", sentence: "The cupcake is a sweet treat." },
+  { rule: "Compound Word 'rainbow'", word: "rainbow", sentence: "A beautiful rainbow appeared after the rain." },
+  { rule: "Compound Word 'sunglasses'", word: "sunglasses", sentence: "He wears sunglasses on a sunny day." },
+  { rule: "Compound Word 'football'", word: "football", sentence: "They love to play football in the park." },
+  { rule: "Compound Word 'butterfly'", word: "butterfly", sentence: "A colorful butterfly landed on the flower." },
+
+  // More Sight Words
+  { rule: "Sight Word 'have'", word: "have", sentence: "I have a blue car." },
+  { rule: "Sight Word 'with'", word: "with", sentence: "She went to the store with her mom." },
+  { rule: "Sight Word 'they'", word: "they", sentence: "They are building a new house." },
+  { rule: "Sight Word 'from'", word: "from", sentence: "This letter is from my friend." },
+  { rule: "Sight Word 'what'", word: "what", sentence: "What time is it?" },
 ];
